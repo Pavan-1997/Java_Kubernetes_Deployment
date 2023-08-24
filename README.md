@@ -159,12 +159,12 @@ minikube service stockmanager
 
 7) Hit the url in browser -> 
 
-ORDER TO BUILD AND DEPLOY 
+    ORDER TO BUILD AND DEPLOY 
 
-shopfront -> productcatalogue -> stockmanager
+    shopfront -> productcatalogue -> stockmanager
 
-Endpoint for product --> /products
-Endpoint for stock --> /stocks
-
-
+    Endpoint for product --> /products
+    Endpoint for stock --> /stocks
+    
+    
 
