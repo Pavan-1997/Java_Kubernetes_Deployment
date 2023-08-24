@@ -1,4 +1,4 @@
-# docker-Java-kubernetes-project
+# Docker Java Kubernetes Project
 
 
 INSTALL MINIKUBE 
