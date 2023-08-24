@@ -78,6 +78,7 @@ eksctl utils associate-iam-oidc-provider \
 
 
 Step7: WORKER NODE Create node-group:
+```
 eksctl create nodegroup --cluster=eksdemo \
                    --region=us-west-1 \
                    --name=eksdemo-ng-public \
@@ -94,14 +95,14 @@ eksctl create nodegroup --cluster=eksdemo \
                    --full-ecr-access \
                    --appmesh-access \
                    --alb-ingress-access	
-
+```
 
  
-//eksctl delete nodegroup --cluster=eksdemo --region=us-east-1 --name=eksdemo-ng-public
+`eksctl delete nodegroup --cluster=eksdemo --region=us-east-1 --name=eksdemo-ng-public`
 
 
 
-//eksctl delete cluster --name=eksdemo    --region=us-west-1	
+`eksctl delete cluster --name=eksdemo    --region=us-west-1`
 
 
 
