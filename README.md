@@ -1,7 +1,7 @@
 # Docker Java Kubernetes Project
 
 
-INSTALL MINIKUBE 
+## INSTALL MINIKUBE 
 ***********************************************************
 
 `KUBECTL`
@@ -27,7 +27,7 @@ systemctl enable docker
 
 
 
-INSTALL EKS SETUP
+## INSTALL EKS SETUP
 
 #############################################################
 
@@ -110,7 +110,7 @@ eksctl create nodegroup --cluster=eksdemo \
 #############################################################
 
 
-HANDSON
+## HANDSON
 
 
 Deploying Java Applications with Docker and Kubernetes
