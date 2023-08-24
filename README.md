@@ -150,9 +150,12 @@ kubectl apply -f stockmanager-service.yaml
 
 6) minikube service servicename  -> 
 
+```
 minikube service shopfront
 minikube service productcatalogue
 minikube service stockmanager
+```
+
 
 7) Hit the url in browser -> 
 
