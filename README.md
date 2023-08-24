@@ -28,7 +28,9 @@ systemctl enable docker
 
 
 INSTALL EKS SETUP
+
 #############################################################
+
 Step1: Take EC2 Instance with t2.MEDIUM instance type
 
 
@@ -54,11 +56,16 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 sudo mv /tmp/eksctl /usr/bin
 eksctl version
 ```
+
+
 Step5: MASTER Cluster creation:
+```
 eksctl create cluster --name=eksdemo \
                   --region=us-west-1 \
                   --zones=us-west-1b,us-west-1c \
                   --without-nodegroup 
+```
+
 
 Step6: Add Iam-Oidc-Providers:
 eksctl utils associate-iam-oidc-provider \
