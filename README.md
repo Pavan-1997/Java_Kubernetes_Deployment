@@ -15,11 +15,12 @@ echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
 source $HOME/.bashrc
 kubectl version --short --client
 ```
+```
 `DOCKER`
 yum install docker -y
 systemctl  start docker
 systemctl enable docker
-
+```
 https://minikube.sigs.k8s.io/docs/start/
 ***********************************************************
 
