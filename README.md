@@ -68,12 +68,13 @@ eksctl create cluster --name=eksdemo \
 
 
 Step6: Add Iam-Oidc-Providers:
+```
 eksctl utils associate-iam-oidc-provider \
     --region us-west-1 \
     --cluster eksdemo \
     --approve 
-
-Allowing the service to connect with EKS
+```
+`Allowing the service to connect with EKS`
 
 
 Step7: WORKER NODE Create node-group:
